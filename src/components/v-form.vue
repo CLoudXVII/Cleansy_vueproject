@@ -5,14 +5,11 @@
             <p class="form-text-bottom">Свяжитесь с нами сейчас и получите 10 % скидку на все услуги </p>
         </div>
         <div class="form">
-            
+
         </div>
         
     </div>   
 </template>
-
-
-
 
 
 
