@@ -1,7 +1,7 @@
 <template>
     <div class="vForm">
         <div class="form-text">
-            <h1 id="form" class="form-text-top">Заказать уборку</h1>
+            <h1 id="formfooter" class="form-text-top">Заказать уборку</h1>
             <p class="form-text-bottom">Свяжитесь с нами сейчас и получите 10 % скидку на первую покупку </p>
         </div>
         <div class="form">
@@ -24,8 +24,6 @@
     </div>   
 </template>
 
-
-
 <script>
     export default {
         name: 'vForm',   
@@ -38,10 +36,6 @@
         computed: {},
     }
 </script>
-
-
-
-
 
 <style>
     .vForm {

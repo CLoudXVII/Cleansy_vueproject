@@ -6,7 +6,7 @@ import homeview from "@/views/v-home-view.vue"
 export default createRouter({
     history: createWebHashHistory(),
     routes: [
-        {path: '/', component: homeview},
+        {path: '/Home', component: homeview},
         {path: '/Services', component: servicesview},
     ]
 })

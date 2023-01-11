@@ -2,7 +2,6 @@
     <div class="vServices">
         <div class="initial-text">
             <h1>Виды уборок</h1>
-            <p>Описание видов уборок с сортировкой</p>
         </div>
         <div class="first-row">
             <div class="cleaning-item"><img src="@/assets/apartment.png" alt="" /><p>Вся квартира</p></div>
@@ -17,18 +16,11 @@
     </div>
 </template>
 
-
-
-
-
 <script>
 export default {
     name: 'vServices'
 }
 </script>
-
-
-
 
 <style>
     .initial-text {

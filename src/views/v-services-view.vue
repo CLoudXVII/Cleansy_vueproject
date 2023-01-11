@@ -1,7 +1,5 @@
 <template>
-    <div class="servicesview">
-        <v-services></v-services>
-    </div>
+    <v-services />
 </template>
 
 <script>

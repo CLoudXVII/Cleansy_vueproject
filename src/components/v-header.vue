@@ -4,7 +4,7 @@
             <div class="header-line">
 
                 <div class="header-logo">
-                    <img src="@/assets/logo.png">
+                    <a href="#/Home"><img src="@/assets/logo.png"></a>
                 </div>
 
                 <div class="nav">
@@ -27,26 +27,9 @@
                     </div>
                 </div>
             </div>
-
-            <div class="calltoaction">
-                <div class="btn-text">
-                        <h1>Уборка квартир и офисов</h1>
-                        <p>Оказываем полный спектр услуг клининга квартир <br>и помещений в Москве и области</p> 
-                    </div>
-                    <div class="btn">
-                        <a href="#form"><button class="button">Оставить заявку</button></a>
-                    </div>
-            </div>
-
-
         </div>
     </div>
 </template>
-
-
-
-
-
 
 <script>
     export default {
@@ -61,26 +44,15 @@
     }
 </script>
 
-
-
-
-
-
-
-
 <style>
     .vHeader {
-        background-image: url(@/assets/bg.png);
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-position-y: bottom;
         background-color: #262626;
     }
     .container {
-        margin: 0px 166px;
+        margin: 0px 120px;
     }
     .header-line {
-        padding-top: 50px;
+        padding-top: 30px;
         display: flex;
         align-items: center;
         justify-content: space-around;    
@@ -110,28 +82,5 @@
     }
     .num:hover {
         color:orange;
-    }
-    .button {
-        background-color: #FF7400;
-        color: #fff;
-        text-decoration: none;
-        padding: 24px 24px;
-        font-weight: 700;
-        transition: background-color 0.2s linear;
-        border-radius: 15px;
-        border-width: 0.5px;
-        font-size: 21px;
-    }
-    .button:hover {
-        background-color: #a8530b;
-    }
-    .btn-text {
-        color: black;
-        font-weight: 500; 
-        font-size: 21px;       
-    }
-    .calltoaction {
-        margin-left: 200px;
-        margin-top: 150px;
     }
 </style>

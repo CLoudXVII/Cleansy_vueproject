@@ -1,11 +1,15 @@
 <template>
-    <div class="homeview">
-    </div>
+    <VHome />
 </template>
 
 <script>
+import VHome from '@/components/v-home.vue';
+
 export default {
-    name: 'home-view',
+    name: "home-view",
+    components: {
+        VHome 
+    }
 }
 </script>
 
