@@ -87,9 +87,9 @@
     .nav-item {
         color: #fff;
         text-decoration: none;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 21px;
-        margin-right: 25px;
+        margin-right: 50px;
         transition: color 0.2s linear;
     }
     .nav-item:hover {
@@ -102,9 +102,9 @@
     .num {
         color: #fff;
         text-decoration: none;
-        font-weight: 700;
+        font-weight: 400;
         transition: color 0.2s linear;
-        margin-left: 10px;
+        margin-left: 25px;
         font-size: 21px;
     }
     .num:hover {
