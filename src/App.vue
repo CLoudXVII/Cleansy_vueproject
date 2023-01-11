@@ -14,8 +14,6 @@ import VHeader from './components/v-header.vue'
 export default {
   name: 'App',
   components: {
-    VHeader,
-    VForm,
   }
 }
 </script>
