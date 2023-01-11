@@ -9,9 +9,11 @@
             <input class="form-elem" placeholder="Введите e-mail" type="email" />
             <input class="form-elem" placeholder="Введите номер телефона" type="tel" />
             <select class="select-cleaning" name="Cleaning">
-                <option value="1">Обычная</option>
-                <option value="2">Генеральная</option>
-                <option value="3">Генеральная (с дезинсекцией)</option>
+                <option value="1">Выборочная</option>
+                <option value="2">Стандартная</option>
+                <option value="3">Полная</option>
+                <option value="4">Полная (для домов)</option>
+                <option value="5">Уборка с дезинсекцией</option>
             </select>
 
             <div class="btn">
@@ -54,7 +56,7 @@
         background-repeat: no-repeat;
     }
     .form-elem {
-        width: 1194px;
+        width: 900px;
         height: 100px;
         margin: 32px;
         border-radius: 18px;
@@ -67,7 +69,7 @@
         font-size: 40px; 
     }
     .select-cleaning {
-        width: 1228px;
+        width: 900px;
         height: 100px;
         margin: 32px;
         border-radius: 18px;

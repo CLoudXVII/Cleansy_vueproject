@@ -9,10 +9,11 @@
 
                 <div class="nav">
                     <a class="nav-item" href="#/Services">Услуги</a>
-                    <a class="nav-item" href="@">Как мы работаем</a>
-                    <a class="nav-item" href="@">Вопросы</a>
-                    <a class="nav-item" href="@">Оценки и отзывы</a>
+                    <a class="nav-item" href="">Как мы работаем</a>
+                    <a class="nav-item" href="">Вопросы</a>
+                    <a class="nav-item" href="#/Reviews">Оценки и отзывы</a>
                     <a class="nav-item" href="https://github.com/CLoudXVII/Cleansy_vueproject">GitHub</a>
+                    <a class="nav-item" href="">Login: KotKokos12</a>
                 </div>
 
                 <div class='phone'> 
@@ -52,7 +53,8 @@
         margin: 0px 120px;
     }
     .header-line {
-        padding-top: 30px;
+        padding-top: 25px;
+        padding-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: space-around;    
