@@ -56,7 +56,7 @@
     }
     .form {
         text-align: center;
-        background-image: url(./bgform.png);
+        background-image: url(@/assets/bgform.png);
         background-repeat: no-repeat;
     }
     .form-elem {

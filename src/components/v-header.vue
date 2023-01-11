@@ -4,7 +4,7 @@
             <div class="header-line">
 
                 <div class="header-logo">
-                    <img src="./logo.png">
+                    <img src="@/assets/logo.png">
                 </div>
 
                 <div class="nav">
@@ -17,7 +17,7 @@
                 <div class='phone'> 
                     <div class='phone-holder'>
                         <div class='phone-img'>
-                            <img src="./phone.png" alt="">
+                            <img src="@/assets/phone.png" alt="">
                         </div>
 
                         <div class='number'>
@@ -69,7 +69,7 @@
 
 <style>
     .vHeader {
-        background-image: url(C:\Users\CLoudXVII\projectvue\src\assets\bg.png);
+        background-image: url(@/assets/bg.png);
         height: 100vh;
         background-repeat: no-repeat;
         background-position-y: bottom;
