@@ -1,7 +1,7 @@
   <template>
     <div id="app">
       <VHeader />
-      <VServices />
+      <router-view />
       <VForm />
     </div>    
   </template>
@@ -10,14 +10,12 @@
 
 import VForm from './components/v-form.vue';
 import VHeader from './components/v-header.vue'
-import VServices from './components/v-services.vue';
 
 export default {
   name: 'App',
   components: {
     VForm,
     VHeader,
-    VServices
 }
 }
 </script>

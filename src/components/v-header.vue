@@ -8,10 +8,11 @@
                 </div>
 
                 <div class="nav">
-                    <a class="nav-item" href="@">Услуги</a>
+                    <a class="nav-item" href="#/Services">Услуги</a>
                     <a class="nav-item" href="@">Как мы работаем</a>
                     <a class="nav-item" href="@">Вопросы</a>
                     <a class="nav-item" href="@">Оценки и отзывы</a>
+                    <a class="nav-item" href="https://github.com/CLoudXVII/Cleansy_vueproject">GitHub</a>
                 </div>
 
                 <div class='phone'> 
